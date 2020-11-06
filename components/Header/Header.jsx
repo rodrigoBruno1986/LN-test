@@ -1,22 +1,25 @@
 import React from "react";
+import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
     <div>
-      <div className="contenido-buscador">
-        <div className="menu">
-          <img src="" alt="" />
+      <div className={styles.contenedorMenu}>
+        <div className={styles.contenidoBuscador}>
+          <div className={styles.hamburguesaMenu}>
+            <img src="" alt="" />
+          </div>
+          <div className={styles.busadorInput}>
+            <input type="text" />
+          </div>
         </div>
-        <div className="buscador">
-          <input type="text" />
+        <div className={styles.LogoMenu}>
+          <img src="/images/logo.png" alt="" />
         </div>
-      </div>
-      <div className="logo">
-        <img src="" alt="" />
-      </div>
-      <div className="botones">
-        <button></button>
-        <button></button>
+        <div className={styles.contenidoBotones}>
+          <button>boton1</button>
+          <button>boton2</button>
+        </div>
       </div>
     </div>
   );

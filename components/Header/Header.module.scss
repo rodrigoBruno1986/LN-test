@@ -1,0 +1,21 @@
+.contenedorMenu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: grey;
+    
+    
+    .contenidoBuscador{
+        display: flex;
+        align-items: center;
+    }
+    
+    .LogoMenu{
+       img{
+           width: 330px;
+       }
+    }
+}
+
+
+
