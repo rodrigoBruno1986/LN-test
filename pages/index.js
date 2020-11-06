@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import Main from "../components/Main/Main";
+
 
 
 export default function Home() {
@@ -16,7 +18,8 @@ export default function Home() {
       
       <main>
         <Header></Header>
-        <Footer></Footer>
+        <Main></Main>
+        {/* <Footer></Footer> */}
       </main>
 
     </div>

@@ -1,0 +1,11 @@
+.contenidoArticulos{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.contenidoLista{
+    display: flex;
+    li{
+        margin:0px 20px ;
+    }
+}
