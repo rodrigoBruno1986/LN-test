@@ -10,7 +10,7 @@ const Header = () => {
             <img src="" alt="" />
           </div>
           <div className={styles.busadorInput}>
-            <input type="text" />
+            <input type="text" placeholder="Buscar" />
           </div>
         </div>
         <div className={styles.LogoMenu}>

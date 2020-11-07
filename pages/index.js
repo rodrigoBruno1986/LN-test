@@ -5,6 +5,7 @@ import Main from "../components/Main/Main";
 
 
 
+
 export default function Home() {
   return (
     <div className="container">
@@ -19,7 +20,7 @@ export default function Home() {
       <main>
         <Header></Header>
         <Main></Main>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </main>
 
     </div>
