@@ -16,7 +16,7 @@ const Main = () => {
     console.log("no hay articulos");
     return null;
   }
-
+  //Mostramos los que cuentan con el "subtype":"7",
   const arrayFiltrado = articulos.articles.filter((elemento) => {
     return +elemento.subtype === 7;
   });
@@ -25,6 +25,7 @@ const Main = () => {
 
   const tags = [];
 
+  //sacamos los tags de cada articulo
   arrayCortado.forEach((elemento) => {
     tags.push(...elemento.taxonomy.tags);
   });
