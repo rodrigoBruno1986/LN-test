@@ -2,13 +2,14 @@ import Head from 'next/head'
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import Main from "../components/Main/Main";
+import { Container } from "react-bootstrap";
 
 
 
 
 export default function Home() {
   return (
-    <div className="container">
+    <Container fluid>
       <Head>
         <meta charSet="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -23,6 +24,6 @@ export default function Home() {
         <Footer></Footer>
       </main>
 
-    </div>
+    </Container>
   )
 }

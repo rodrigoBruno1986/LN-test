@@ -1,26 +1,19 @@
 import React from "react";
-import styles from "./Header.module.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Navbar } from "react-bootstrap";
 
 const Header = () => {
   return (
     <div>
-      <div className={styles.contenedorMenu}>
-        <div className={styles.contenidoBuscador}>
-          <div className={styles.hamburguesaMenu}>
-            <img src="" alt="" />
-          </div>
-          <div className={styles.busadorInput}>
-            <input type="text" placeholder="Buscar" />
-          </div>
-        </div>
-        <div className={styles.LogoMenu}>
-          <img src="/images/logo.png" alt="" />
-        </div>
-        <div className={styles.contenidoBotones}>
-          <button>boton1</button>
-          <button>boton2</button>
-        </div>
-      </div>
+      <Navbar>
+        <Navbar.Brand href="#home">Acumulado</Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Navbar.Text>
+            Test - LN: <a href="#login">Rodrigo benitez</a>
+          </Navbar.Text>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 };
